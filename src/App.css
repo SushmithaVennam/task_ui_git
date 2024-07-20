@@ -25,3 +25,7 @@
 .AddTaskContainer {
   font-family: "Poppins", "Arial Narrow", Arial, sans-serif;
 }
+
+.rounded-form-control {
+  border-radius: 40px !important;
+}

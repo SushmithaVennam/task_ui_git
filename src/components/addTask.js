@@ -14,7 +14,12 @@ function AddTask() {
             <Form.Label as="small">
               TITLE <span className="star">*</span>
             </Form.Label>
-            <Form.Control type="text" placeholder="TITLE" name="name" />
+            <Form.Control
+              type="text"
+              placeholder="TITLE"
+              name="name"
+              className="rounded-form-control"
+            />
           </Form.Group>
         </Row>
         <Row>
@@ -23,10 +28,9 @@ function AddTask() {
               CASE <span className="star">*</span>
             </Form.Label>
             <select
-              class="form-select"
+              className="form-select rounded-form-control"
               id="floatingSelect"
               aria-label="Floating label select example"
-              rounded
             >
               <option selected>Select Case</option>
               <option value="1">JERRINE v/s SISSISE</option>
@@ -42,7 +46,7 @@ function AddTask() {
               ASSIGNE<span className="star">*</span>
             </Form.Label>
             <select
-              class="form-select"
+              className="form-select rounded-form-control"
               id="floatingSelect"
               aria-label="Floating label select example"
             >
@@ -64,7 +68,7 @@ function AddTask() {
               PRIORITY<span className="star">*</span>
             </Form.Label>
             <select
-              class="form-select"
+              className="form-select rounded-form-control"
               id="floatingSelect"
               aria-label="Floating label select example"
             >
@@ -80,6 +84,7 @@ function AddTask() {
               type="date"
               placeholder="2024-07-24 7:50"
               name="date"
+              className="rounded-form-control"
             />
           </Form.Group>
         </Row>
