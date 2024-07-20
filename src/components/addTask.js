@@ -5,6 +5,23 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 
 function AddTask() {
+  const assignees = [
+    { value: 1, label: "SUPER ADMIN" },
+    { value: 2, label: "MR.ALI" },
+    { value: 3, label: "TANIA" },
+    { value: 4, label: "BASA" },
+    { value: 5, label: "JAWERIA" },
+    { value: 6, label: "ADEEL" },
+    { value: 7, label: "FEMI" },
+    { value: 8, label: "DANISH SIDDIQ CHOWDARY" },
+  ];
+
+  const cases = [
+    { value: 1, label: "ANIA v/s SHAUGHIN" },
+    { value: 2, label: "KATTAPPA v/s BAHU" },
+    { value: 3, label: "IFRAGH" },
+    { value: 4, label: "ABC1123" },
+  ];
   return (
     <Container fluid="md" className="mt-5 AddTaskContainer">
       <h3>Add Task</h3>
@@ -27,39 +44,34 @@ function AddTask() {
             <Form.Label as="small">
               CASE <span className="star">*</span>
             </Form.Label>
-            <select
+            <Form.Control
+              as="select"
               className="form-select rounded-form-control"
               id="floatingSelect"
               aria-label="Floating label select example"
             >
               <option selected>Select Case</option>
-              <option value="1">JERRINE v/s SISSISE</option>
-              <option value="2">ANIA v/s SHAUGHIN</option>
-              <option value="3">HIT</option>
-              <option value="3">IFRAGH</option>
-              <option value="4">ABC1123</option>
-            </select>
+              {cases.map((option) => (
+                <option value={option.value}>{option.label}</option>
+              ))}
+            </Form.Control>
           </Form.Group>
 
           <Form.Group className="mb-2" controlId="formBasic" as={Col}>
             <Form.Label as="small">
-              ASSIGNE<span className="star">*</span>
+              ASSIGNEE<span className="star">*</span>
             </Form.Label>
-            <select
+            <Form.Control
+              as="select"
               className="form-select rounded-form-control"
               id="floatingSelect"
               aria-label="Floating label select example"
             >
               <option selected>Select User</option>
-              <option value="1">SUPER ADMIN</option>
-              <option value="2">MR.ALI</option>
-              <option value="3">TANIA</option>
-              <option value="4">BASA</option>
-              <option value="5">JAWERIA</option>
-              <option value="6">ADEEL</option>
-              <option value="7">FEMI</option>
-              <option value="8">DANISH SIDDIQ CHOWDARY</option>
-            </select>
+              {assignees.map((option) => (
+                <option value={option.value}>{option.label}</option>
+              ))}
+            </Form.Control>
           </Form.Group>
         </Row>
         <Row>
@@ -67,15 +79,18 @@ function AddTask() {
             <Form.Label as="small">
               PRIORITY<span className="star">*</span>
             </Form.Label>
-            <select
+            <Form.Control
+              as="select"
               className="form-select rounded-form-control"
               id="floatingSelect"
               aria-label="Floating label select example"
             >
-              <option selected>Low</option>
+              <option value="0" selected>
+                LOW
+              </option>
               <option value="1">MEDIUM</option>
               <option value="2">HIGH</option>
-            </select>
+            </Form.Control>
           </Form.Group>
 
           <Form.Group className="mb-2" controlId="formBasic" as={Col}>
