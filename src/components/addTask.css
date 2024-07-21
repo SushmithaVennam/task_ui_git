@@ -3,6 +3,25 @@
   justify-content: center;
 }
 
+.editor-container {
+  min-height: 150px;
+  height: fit-content;
+}
+.font-poppins {
+  font-family: "Poppins";
+}
+
+.ql-snow.ql-toolbar {
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.ql-editor {
+  min-height: 15em;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
 .rounded-form-control {
   border-radius: 40px !important;
 }
@@ -10,8 +29,4 @@
 .star {
   color: red;
   font-weight: bold;
-}
-
-.font-poppins {
-  font-family: "Poppins";
 }

@@ -6,6 +6,9 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import "@fontsource/poppins";
 
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.snow.css";
+
 function AddTask() {
   const assignees = [
     { value: 1, label: "SUPER ADMIN" },
@@ -105,10 +108,11 @@ function AddTask() {
             />
           </Form.Group>
         </Row>
-        <Form.Group className="mb-2" controlId="formBasic">
+        <Form.Group className="mb-2 " controlId="formBasic">
           <Form.Label as="small">DESCRIPTION</Form.Label>
-          <Form.Control type="text" name="description" as="textarea" />
+          <ReactQuill />
         </Form.Group>
+
         <div className="text-center">
           <Button variant="primary">CREATE</Button>
         </div>
