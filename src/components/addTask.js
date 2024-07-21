@@ -4,6 +4,7 @@ import { Button, Card, Container } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
+import "@fontsource/poppins";
 
 function AddTask() {
   const assignees = [
@@ -24,7 +25,7 @@ function AddTask() {
     { value: 4, label: "ABC1123" },
   ];
   return (
-    <Container fluid="md" className="mt-5 AddTaskContainer">
+    <Container fluid="md" className="mt-5 AddTaskContainer font-poppins">
       <h3>Add Task</h3>
       <Card fluid="md" className="p-3">
         <Row>
