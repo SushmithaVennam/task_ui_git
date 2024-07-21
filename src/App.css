@@ -2,30 +2,3 @@
   background-image: url("./resources/body-bg.jpg");
   height: 100vh;
 }
-
-.form-group.required .control-label:after {
-  content: "*";
-  color: red;
-}
-
-.addTaskContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.star {
-  color: red;
-  font-weight: bold;
-}
-
-.fit-content {
-  width: fit-content;
-}
-
-.AddTaskContainer {
-  font-family: "Poppins", "Arial Narrow", Arial, sans-serif;
-}
-
-.rounded-form-control {
-  border-radius: 40px !important;
-}

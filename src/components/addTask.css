@@ -1,0 +1,13 @@
+.addTaskContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.rounded-form-control {
+  border-radius: 40px !important;
+}
+
+.star {
+  color: red;
+  font-weight: bold;
+}
