@@ -1,0 +1,15 @@
+h3 {
+    color: #415094 !important;
+    font-size: 18px !important;
+}
+
+.task-contents > *{
+    color:  #828bb2 !important;
+    font-size: 14px !important;
+}
+
+.task-header > *{
+    color: #415094 !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+}

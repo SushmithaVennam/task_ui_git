@@ -1,6 +1,15 @@
+h3 {
+    color: #415094 !important;
+    font-size: 18px !important;
+}
+
 .addTaskContainer {
   display: flex;
   justify-content: center;
+}
+
+.addTaskContainer  * {
+    color:  #828bb2 !important;
 }
 
 .editor-container {
@@ -27,6 +36,6 @@
 }
 
 .star {
-  color: red;
+  color: red !important;
   font-weight: bold;
 }
