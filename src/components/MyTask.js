@@ -3,7 +3,6 @@ import { Card, Container } from "react-bootstrap";
 import Table from "react-bootstrap/Table";
 import "./MyTask.css";
 import "@fontsource/poppins";
-import "font-awesome/css/font-awesome.min.css";
 
 function MyTask() {
   const Tasks = [
@@ -13,6 +12,7 @@ function MyTask() {
       Assignee: "Assignee1",
       Priority: "Low",
       Duedate: "01-01-2024",
+      Status: "Complete",
     },
     {
       Title: "Title2",
@@ -20,6 +20,7 @@ function MyTask() {
       Assignee: "Assignee2",
       Priority: "Medium",
       Duedate: "02-01-2024",
+      Status: "Complete",
     },
     {
       Title: "Title3",
@@ -27,6 +28,47 @@ function MyTask() {
       Assignee: "Assignee3",
       Priority: "High",
       Duedate: "03-01-2024",
+      Status: "Complete",
+    },
+    {
+      Title: "Title4",
+      Case: "Case4",
+      Assignee: "Assignee4",
+      Priority: "Low",
+      Duedate: "10-01-2024",
+      Status: "Complete",
+    },
+    {
+      Title: "Title5",
+      Case: "Case5",
+      Assignee: "Assignee5",
+      Priority: "High",
+      Duedate: "13-01-2024",
+      Status: "Complete",
+    },
+    {
+      Title: "Title6",
+      Case: "Case6",
+      Assignee: "Assignee6",
+      Priority: "High",
+      Duedate: "17-01-2024",
+      Status: "Complete",
+    },
+    {
+      Title: "Title7",
+      Case: "Case7",
+      Assignee: "Assignee7",
+      Priority: "Medium",
+      Duedate: "23-01-2024",
+      Status: "Complete",
+    },
+    {
+      Title: "Title8",
+      Case: "Case8",
+      Assignee: "Assignee8",
+      Priority: "Low",
+      Duedate: "03-02-2024",
+      Status: "Complete",
     },
   ];
 
