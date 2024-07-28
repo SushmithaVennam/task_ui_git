@@ -39,3 +39,22 @@ h3 {
   color: red !important;
   font-weight: bold;
 }
+
+
+
+.empty-field {
+  color: #ff0000 !important;
+  font-size: 0.7em;
+  line-height: 0.7em;
+  margin: 0 !important;
+  padding:0 !important;
+}
+
+.white-text {
+  color: white !important;
+}
+
+.ql-editor {
+  height: 150px !important;
+  overflow-y:scroll !important;
+  }
