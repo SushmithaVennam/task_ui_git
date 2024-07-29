@@ -1,0 +1,14 @@
+.vertical-timeline::before {
+    top:auto !important;
+}
+
+@media screen and (min-width:1170px){
+    .vertical-timeline-element-icon {
+        margin-left: -20px !important;
+    }
+
+    .vertical-timeline-element-content-arrow{
+        top:15px !important;
+    }
+}
+
