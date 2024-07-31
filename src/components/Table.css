@@ -1,0 +1,25 @@
+.dt-buttons {
+    border: 1px solid #7c32ff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+        width: fit-content;
+        align-items: end;
+}
+
+
+.btn-outline-light {
+    border:none !important;
+    border-radius: 0px !important;
+}
+
+.row {
+    padding: 5px;
+    justify-content: end !important;
+    justify-self: end !important;
+    justify-items: end !important;
+}
+
+.width-fit {
+    width: fit-content !important;
+}
