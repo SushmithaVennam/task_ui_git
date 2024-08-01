@@ -107,7 +107,7 @@ function MyTable() {
   });
 
   return (
-    <Container fluid="md" className="mt-5 AddTaskContainer font-poppins">
+    <Container fluid="md" className="mt-5 TableContainer">
       <Row className="top-row">
         <Col>
           <h3>My Task</h3>

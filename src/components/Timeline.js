@@ -16,7 +16,7 @@ function Timeline(timeline) {
   const timelineItems = timeline.timeline;
   console.log(timelineItems);
   return (
-    <VerticalTimeline>
+    <VerticalTimeline className="TimelineContainer">
       {timelineItems.map((entry) => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

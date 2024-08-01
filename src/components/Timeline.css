@@ -1,3 +1,6 @@
+.TimelineContainer * {
+    color:  #828bb2 !important;
+}
 .vertical-timeline::before {
     top:auto !important;
 }

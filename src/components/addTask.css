@@ -1,24 +1,32 @@
 h3 {
-    color: #415094 !important;
+    color:  #828bb2 !important;
     font-size: 18px !important;
 }
 
-.appContainer .form-control{
+.addTaskContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.AddTaskContainer .form-control{
     color:  #828bb2 !important;
 }
 
-.input-group:focus-within label {
-  color: #828bb2 !important;
+.AddTaskContainer  .form-label {
+  color:  #828bb2 !important;
 }
 
-.appContainer  .form-label {
-  color:  #828bb2 !important;
+.editor-container {
+  min-height: 150px;
+  height: fit-content;
+}
+.font-poppins {
+  font-family: "Poppins";
 }
 
 .ql-snow.ql-toolbar {
   border-top-left-radius: 0.5em;
   border-top-right-radius: 0.5em;
-  color:  #828bb2 !important;
 }
 
 .ql-toolbar .ql-stroke {

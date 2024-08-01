@@ -68,7 +68,7 @@ function AddTask() {
     }
   };
   return (
-    <Container fluid="md" className="mt-3 font-poppins">
+    <Container fluid="md" className="mt-3 AddTaskContainer font-poppins">
       <h3>Add Task</h3>
       <Card fluid="md" className="p-3">
         <Row>
@@ -78,7 +78,7 @@ function AddTask() {
             </Form.Label>
             <Form.Control
               type="text"
-              className="rounded-form-control title-font"
+              className="rounded-form-control"
               placeholder="TITLE"
               onChange={(e) => {
                 setTitle(e.target.value);
