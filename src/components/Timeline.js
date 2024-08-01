@@ -8,7 +8,7 @@ import "./Timeline.css";
 
 function Timeline(timeline) {
   const my_iconStyle = {
-    background: "rgb(130, 139, 178)",
+    background: "#c738d8",
     color: "#fff",
     width: "40px",
     height: "40px",

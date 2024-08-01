@@ -2,3 +2,19 @@
   background-image: url("./resources/body-bg.jpg");
   height: 100vh;
 }
+
+.appContainer {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins";
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #828bb2 !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:    #828bb2 !important;
+}
+::placeholder { /* Most modern browsers support this now. */
+  color:    #828bb2 !important;
+}

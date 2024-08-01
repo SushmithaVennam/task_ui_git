@@ -137,13 +137,14 @@ function MyTable() {
         </Col>
         <Col
           style={{
+            display: "flex",
             justifyContent: "flex-end",
             width: "fit-content",
           }}
         >
           <div class="dt-buttons ">
             <Button
-              className=".btn-no-radius"
+              className="btn-no-radius"
               variant="outline-light"
               title="Copy"
               onClick={copyToClipboard}
@@ -183,13 +184,6 @@ function MyTable() {
             >
               <FaPrint />
             </Button>
-            {/* <Button
-              className=".btn-no-radius"
-              variant="outline-light"
-              title="Columns"
-            >
-              <FaColumns />
-            </Button> */}
           </div>
         </Col>
       </Row>

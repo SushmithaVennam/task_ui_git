@@ -7,6 +7,7 @@ import Row from "react-bootstrap/Row";
 import "@fontsource/poppins";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
+import { FaCheck } from "react-icons/fa";
 
 function AddTask() {
   const assignees = [
@@ -67,19 +68,18 @@ function AddTask() {
     }
   };
   return (
-    <Container fluid="md" className="mt-3 AddTaskContainer font-poppins">
+    <Container fluid="md" className="mt-3 font-poppins">
       <h3>Add Task</h3>
       <Card fluid="md" className="p-3">
         <Row>
-          <Form.Group className="mb-2" controlId="formBasicName">
+          <Form.Group className="mb-2" controlId="formBasic">
             <Form.Label as="small">
               TITLE <span className="star">*</span>
             </Form.Label>
             <Form.Control
               type="text"
+              className="rounded-form-control title-font"
               placeholder="TITLE"
-              name="name"
-              className="rounded-form-control"
               onChange={(e) => {
                 setTitle(e.target.value);
               }}
@@ -185,7 +185,8 @@ function AddTask() {
         </Form.Group>
 
         <div className="text-center">
-          <Button className="primary white-text" onClick={validateForm}>
+          <Button className="white-text button-color" onClick={validateForm}>
+            <FaCheck className="white-text m-1" />
             CREATE
           </Button>
         </div>

@@ -3,26 +3,36 @@ h3 {
     font-size: 18px !important;
 }
 
-.addTaskContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.addTaskContainer  * {
+.appContainer .form-control{
     color:  #828bb2 !important;
 }
 
-.editor-container {
-  min-height: 150px;
-  height: fit-content;
+.input-group:focus-within label {
+  color: #828bb2 !important;
 }
-.font-poppins {
-  font-family: "Poppins";
+
+.appContainer  .form-label {
+  color:  #828bb2 !important;
 }
 
 .ql-snow.ql-toolbar {
   border-top-left-radius: 0.5em;
   border-top-right-radius: 0.5em;
+  color:  #828bb2 !important;
+}
+
+.ql-toolbar .ql-stroke {
+  fill: none !important;
+  stroke: #828bb2 !important;
+  color:  #828bb2 !important;
+}
+.ql-toolbar .ql-fill {
+  fill: #828bb2 !important;
+  stroke: none;
+}
+
+.ql-toolbar .ql-picker {
+  color: #828bb2 !important;
 }
 
 .ql-editor {
@@ -40,8 +50,6 @@ h3 {
   font-weight: bold;
 }
 
-
-
 .empty-field {
   color: #ff0000 !important;
   font-size: 0.7em;
@@ -58,3 +66,9 @@ h3 {
   height: 150px !important;
   overflow-y:scroll !important;
   }
+
+.button-color {
+  border: 1px solid #c738d8 !important;
+  background-color: #c738d8 !important;
+  color: white !important;
+}
